@@ -37,7 +37,9 @@ inicializarLoja();
 
 atualizarCarrinho = () => {
     var containerCarrinho = document.getElementById('carrinho');
+    
     containerCarrinho.innerHTML = "";
+    
     items.map((val)=>{
         if(val.quantidade > 0){
         containerCarrinho.innerHTML+=`
@@ -49,6 +51,8 @@ atualizarCarrinho = () => {
         }
     })
 }
+
+
 
 var links = document.getElementsByName('a');
 
