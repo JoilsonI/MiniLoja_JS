@@ -3,11 +3,16 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 0 2%;
+    display: flex;
+}
+
+.produto-single{
+width: 33.3%;
+padding: 0 20%;
+
 }
 
 img{
-display: inline;
-box-sizing: border-box;
-width: 15%;
+    width: 33,3%;
+    height: 33,3%;
 }
-
