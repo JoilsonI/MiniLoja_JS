@@ -49,7 +49,7 @@ atualizarCarrinho = () => {
         
         <p>`+val.nome+` | quantidade: `+val.quantidade+`</p>
         <hr>
-
+            
         `;
         }
     })
