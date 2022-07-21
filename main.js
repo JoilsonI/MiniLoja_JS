@@ -52,5 +52,6 @@ for (let i = 0; i < links.length; i++) {
         let key = this.getAttribute('key');
         items[key].quantidade++;
         atualizarCarrinho();
+        return false;
     })
 }
