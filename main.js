@@ -44,6 +44,7 @@ inicializarLoja();
 atualizarCarrinho = () => {
     var containerCarrinho = document.getElementById('carrinho');
     items.map((val)=>{
+        
         if(val.quantidade > 0){
         containerCarrinho.innerHTML+=`
         
