@@ -1,9 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
+#produtos,
+#carrinho{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2%;
 }
 
 img{
+display: inline;
 box-sizing: border-box;
 width: 15%;
 }
+
