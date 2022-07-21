@@ -42,7 +42,7 @@ inicializarLoja = () => {
 inicializarLoja();
 
 atualizarCarrinho = () => {
-
+ console.log(items);
 }
 
 var links = document.getElementsByName('a');
