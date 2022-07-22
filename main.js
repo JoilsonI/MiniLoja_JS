@@ -29,6 +29,7 @@ inicializarLoja = () => {
                 <p>`+val.nome+`</p>
                 <a key="`+val.id+`" href="">Adicionar ao carrinho!</a>
             </div>
+
         `;
     })
 }
@@ -37,12 +38,10 @@ inicializarLoja();
 
 atualizarCarrinho = () => {
     var containerCarrinho = document.getElementById('carrinho');
-    
     containerCarrinho.innerHTML = "";
-    
     items.map((val)=>{
         if(val.quantidade > 0){
-        containerCarrinho.innerHTML+=`
+        containerCarrinho.innerHTML+= `
         
         <p>`+val.nome+` | quantidade: `+val.quantidade+`</p>
         <hr>
