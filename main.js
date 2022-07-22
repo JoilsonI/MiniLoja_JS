@@ -56,7 +56,7 @@ atualizarCarrinho = () => {
 
 var links = document.getElementsByName('a');
 
-for (let i = 0; i < links.length; i++){
+for (var i = 0; i < links.length; i++){
     links[i].addEventListener("click",function(){
         let key = this.getAttribute('key');
         items[key].quantidade++;
